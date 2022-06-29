@@ -36,8 +36,8 @@ const Footer = () => {
                 <p>Help Center</p>
                 <p>Trust & Saftey</p>
                 <p>AirCover</p>
-                <p>Saftey information</p>
-                <p>Our COVID-19 Resoonse</p>
+                <p>Saftey Information</p>
+                <p>Our COVID-19 Response</p>
             </div>
 
             
