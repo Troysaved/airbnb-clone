@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { format } from 'date-fns';
 import InfoCard from '../components/InfoCard';
-import MapFunc from '../components/map';
+import Map from '../components/map';
 
 
 
@@ -54,7 +54,7 @@ const Search = ({ searchResults }) => {
                 </section>
 
                 <section className='hidden flex-grow xl:inline-flex xl:min-w[600px]'>
-                    <MapFunc searchResults={searchResults} />
+                    <Map searchResults={searchResults} />
                 </section>
             </main>
 
@@ -67,8 +67,8 @@ export default Search;
 
 export async function getServerSideProps() {
     const searchResults = await fetch("https://links.papareact.com/isz")
-    .then(
-        (res) => res.json())
+        .then(
+            (res) => res.json())
 
     return {
         props: {

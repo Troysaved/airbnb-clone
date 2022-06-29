@@ -2,7 +2,7 @@ import * as React from 'react';
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import { getCenter } from 'geolib';
 
-function MapFunc({ searchResults }) {
+function Map({ searchResults }) {
     const [selectedLocation, setSelectedLocation] = React.useState({})
 
     // transform the search results object into the lat long obj
@@ -71,6 +71,6 @@ function MapFunc({ searchResults }) {
 }
 
 
-export default MapFunc;
+export default Map;
 
 
