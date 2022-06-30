@@ -40,7 +40,7 @@ const Footer = () => {
                 <p>Our COVID-19 Response</p>
             </div>
 
-            
+
         </div>
     );
 }
